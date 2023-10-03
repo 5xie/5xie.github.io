@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #666;
 }
 .header .container {
   min-height: 0px;
@@ -13,6 +13,7 @@
   text-decoration: none;
   line-height: 80px;
   font-size: 18px;
+  color: #fff;
 }
 .menu-left {
   float: left;
@@ -233,7 +234,7 @@
   margin: 30px auto 30px;
 }
 .article-item {
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #888;
   margin: 0 auto 20px;
   padding-bottom: 15px;
 }
@@ -243,7 +244,7 @@
   line-height: 1.5;
 }
 .article-item a:link {
-  color: #333;
+  color: #666;
 }
 .article-item a:hover {
   text-decoration: underline;
@@ -252,7 +253,7 @@
   color: #969696;
 }
 .article-item-content p {
-  color: #999;
+  color: #666;
   font-size: 14px;
   line-height: 25px;
   margin: 0 auto 8px;
@@ -268,6 +269,7 @@
 .post-title {
   margin: 35px 0 25px;
   text-align: center;
+  color: #444;
 }
 .post ul {
   margin: 10px 5px 20px 25px;
@@ -285,7 +287,7 @@
   word-wrap: break-word;
 }
 .markdown-style a {
-  color: #0366d6;
+  color: #444;
 }
 .markdown-style figure {
   margin: 0;
@@ -387,7 +389,7 @@
 .markdown-style h4 .octicon-link,
 .markdown-style h5 .octicon-link,
 .markdown-style h6 .octicon-link {
-  color: #1b1f23;
+  color: #444;
   vertical-align: middle;
   visibility: hidden;
 }

@@ -3,7 +3,7 @@
   margin: 30px auto 30px;
 }
 .article-item {
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #888;
   margin: 0 auto 20px;
   padding-bottom: 15px;
 }
@@ -13,7 +13,7 @@
   line-height: 1.5;
 }
 .article-item a:link {
-  color: #333;
+  color: #666;
 }
 .article-item a:hover {
   text-decoration: underline;
@@ -22,7 +22,7 @@
   color: #969696;
 }
 .article-item-content p {
-  color: #999;
+  color: #666;
   font-size: 14px;
   line-height: 25px;
   margin: 0 auto 8px;

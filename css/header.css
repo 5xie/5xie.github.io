@@ -1,7 +1,7 @@
 /**********导航头**********/
 .header {
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #666;
 }
 .header .container {
   min-height: 0px;
@@ -14,6 +14,7 @@
   text-decoration: none;
   line-height: 80px;
   font-size: 18px;
+  color: #fff;
 }
 .menu-left {
   float: left;

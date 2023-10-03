@@ -5,7 +5,7 @@
   word-wrap: break-word;
 }
 .markdown-style a {
-  color: #0366d6;
+  color: #444;
 }
 .markdown-style figure {
   margin: 0;
@@ -107,7 +107,7 @@
 .markdown-style h4 .octicon-link,
 .markdown-style h5 .octicon-link,
 .markdown-style h6 .octicon-link {
-  color: #1b1f23;
+  color: #444;
   vertical-align: middle;
   visibility: hidden;
 }
