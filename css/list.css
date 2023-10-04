@@ -3,12 +3,12 @@
   margin: 30px auto 30px;
 }
 .article-item {
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #aaa;
   margin: 0 auto 20px;
   padding-bottom: 15px;
 }
 .article-item a {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -22,13 +22,13 @@
   color: #969696;
 }
 .article-item-content p {
-  color: #666;
+  color: #999;
   font-size: 14px;
   line-height: 25px;
   margin: 0 auto 8px;
 }
 .atricle-item-time span {
-  color: #b4b4b4;
+  color: #888;
   font-size: 12px;
   line-height: 20px;
 }

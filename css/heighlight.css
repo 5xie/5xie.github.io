@@ -5,7 +5,7 @@
   word-wrap: break-word;
 }
 .markdown-style a {
-  color: #444;
+  color: #888;
 }
 .markdown-style figure {
   margin: 0;
@@ -107,7 +107,7 @@
 .markdown-style h4 .octicon-link,
 .markdown-style h5 .octicon-link,
 .markdown-style h6 .octicon-link {
-  color: #444;
+  color: #666;
   vertical-align: middle;
   visibility: hidden;
 }
@@ -460,7 +460,7 @@
 .markdown-style .code .selector-class,
 .markdown-style .code .selector-attr,
 .markdown-style .code .selector-pseudo {
-  color: #795da3;
+  color: #666;
 }
 .markdown-style .code .addition {
   color: #55a532;

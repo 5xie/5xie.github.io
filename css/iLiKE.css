@@ -198,7 +198,7 @@
 }
 .page-item-normal {
   background-color: #fff;
-  color: #333;
+  color: #666;
   cursor: pointer;
 }
 .page-item-select {
@@ -234,12 +234,12 @@
   margin: 30px auto 30px;
 }
 .article-item {
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #aaa;
   margin: 0 auto 20px;
   padding-bottom: 15px;
 }
 .article-item a {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -253,13 +253,13 @@
   color: #969696;
 }
 .article-item-content p {
-  color: #666;
+  color: #999;
   font-size: 14px;
   line-height: 25px;
   margin: 0 auto 8px;
 }
 .atricle-item-time span {
-  color: #b4b4b4;
+  color: #888;
   font-size: 12px;
   line-height: 20px;
 }
@@ -269,7 +269,6 @@
 .post-title {
   margin: 35px 0 25px;
   text-align: center;
-  color: #444;
 }
 .post ul {
   margin: 10px 5px 20px 25px;
@@ -287,7 +286,7 @@
   word-wrap: break-word;
 }
 .markdown-style a {
-  color: #444;
+  color: #888;
 }
 .markdown-style figure {
   margin: 0;
@@ -389,7 +388,7 @@
 .markdown-style h4 .octicon-link,
 .markdown-style h5 .octicon-link,
 .markdown-style h6 .octicon-link {
-  color: #444;
+  color: #666;
   vertical-align: middle;
   visibility: hidden;
 }
@@ -742,7 +741,7 @@
 .markdown-style .code .selector-class,
 .markdown-style .code .selector-attr,
 .markdown-style .code .selector-pseudo {
-  color: #795da3;
+  color: #666;
 }
 .markdown-style .code .addition {
   color: #55a532;
@@ -774,17 +773,17 @@ h6 {
   padding: 0;
 }
 a {
-  color: #333;
+  color: #666;
   text-decoration: none;
 }
 p {
-  color: #2f2f2f;
+  color: #444;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
 }
 span {
-  color: #333;
+  color: #666;
   font-size: 14px;
 }
 img {
