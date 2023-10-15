@@ -125,7 +125,7 @@ body,
 }
 body {
   background: #eee;
-  font: 14px/1.6em "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.6em "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -190,6 +190,9 @@ body {
     margin: 0 0.833333333333333%;
   }
 }
+#main {
+  float: right;
+}
 .article-date,
 .article-category-link,
 .archive-year,
@@ -209,7 +212,7 @@ body {
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 .article-entry h1,
 .widget h1,
@@ -254,7 +257,7 @@ body {
 .widget h5 a:hover,
 .article-entry h6 a:hover,
 .widget h6 a:hover {
-  color: #e32d40;
+  color: #00f;
 }
 .article-entry h2,
 .widget h2,
@@ -368,7 +371,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 280px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -410,12 +413,13 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #21282e;
+  background: url("images/banner.jpg") center #888;
   background-size: cover;
   z-index: -1;
 }
 #header-title {
   text-align: center;
+  margin-left: 50px;
   height: 40px;
   position: absolute;
   top: 50%;
@@ -425,7 +429,7 @@ body {
 #logo,
 #subtitle {
   text-decoration: none;
-  color: #fff;
+  color: #0a0;
   font-weight: 300;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
@@ -433,15 +437,13 @@ body {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
-  background: #e32d40;
-  padding: 5px 10px;
-  border-radius: 5px;
 }
 #subtitle {
+  color: #0a0;
   font-size: 16px;
   line-height: 16px;
+  margin-left: 120px;
   letter-spacing: 1px;
-  color: #687e91;
 }
 #subtitle-wrap {
   margin-top: 16px;
@@ -449,16 +451,17 @@ body {
 #main-nav {
   float: left;
   margin-left: -15px;
+  font-size: 20px;
 }
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
+  color: #0a0;
   opacity: 0.6;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: alpha(opacity=60);
   text-decoration: none;
-  text-shadow: 0 1px rgba(0,0,0,0.2);
+  text-shadow: 0 2px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
@@ -474,11 +477,10 @@ body {
   filter: none;
 }
 .nav-icon {
-  font-family: FontAwesome;
   text-align: center;
-  font-size: 14px;
-  width: 14px;
-  height: 14px;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -495,9 +497,6 @@ body {
 #main-nav-toggle {
   display: none;
 }
-#main-nav-toggle:before {
-  content: "\f0c9";
-}
 @media screen and (max-width: 479px) {
   #main-nav-toggle {
     display: block;
@@ -506,12 +505,6 @@ body {
 #sub-nav {
   float: right;
   margin-right: -15px;
-}
-#nav-rss-link:before {
-  content: "\f09e";
-}
-#nav-search-btn:before {
-  content: "\f002";
 }
 #search-form-wrap {
   position: absolute;
@@ -579,7 +572,7 @@ body {
   color: #777;
 }
 .article {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .article-inner {
   overflow: hidden;
@@ -627,7 +620,7 @@ body {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #e32d40;
+  color: #00f;
 }
 .article-entry {
   zoom: 1;
@@ -665,7 +658,7 @@ a.article-title:hover {
   margin: 1.1em 0;
 }
 .article-entry a {
-  color: #e32d40;
+  color: #00f;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -709,7 +702,7 @@ a.article-title:hover {
   color: #777;
 }
 .article-entry blockquote footer {
-  font-size: 14px;
+  font-size: 16px;
   margin: 1.6em 0;
   font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -765,10 +758,10 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #e32d40;
+  background: #00f;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px #c01a2b;
+  text-shadow: 0 1px #00c;
 }
 .article-footer {
   zoom: 1;
@@ -832,7 +825,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   #article-nav {
-    margin: 50px 0;
+    margin: 20px 0;
   }
   #article-nav:before {
     width: 8px;
@@ -856,7 +849,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
   display: block;
 }
@@ -1082,13 +1075,13 @@ a.article-title:hover {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 #comments a {
-  color: #e32d40;
+  color: #00f;
 }
 .archives-wrap {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .archives {
   zoom: 1;
@@ -1146,7 +1139,7 @@ a.article-title:hover {
   line-height: 1.6em;
 }
 .archive-article-title:hover {
-  color: #e32d40;
+  color: #00f;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1161,7 +1154,7 @@ a.article-title:hover {
 }
 #page-nav {
   zoom: 1;
-  margin: 50px auto;
+  margin: 20px auto;
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
@@ -1221,7 +1214,7 @@ a.article-title:hover {
   color: #999;
 }
 #footer a {
-  color: #e32d40;
+  color: #00f;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1241,7 +1234,7 @@ a.article-title:hover {
   border-width: 1px 0;
   overflow: auto;
   color: #f8f8f2;
-  line-height: 22.400000000000002px;
+  line-height: 25.6px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1302,7 +1295,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 25.6px;
 }
 .article-entry .gist {
   margin: 0 -20px;
@@ -1344,7 +1337,7 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #e32d40;
+  color: #00f;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1455,24 +1448,24 @@ pre .javascript .function {
   }
 }
 .widget-wrap {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .widget {
-  color: #777;
+  color: #0a0;
   text-shadow: 0 1px #fff;
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
   padding: 15px;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 .widget a {
-  color: #999;
+  color: #666;
   text-decoration: none;
 }
 .widget a:hover {
   text-decoration: underline;
-  color: #e32d40;
+  color: #00f;
 }
 .widget ul ul,
 .widget ol ul,
