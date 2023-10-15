@@ -19,7 +19,7 @@
     <link rel="alternative" href="/atom.xml" title="心尘" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="images/favicon.png">
   
   
 <link rel="stylesheet" href="/css/style.css">
@@ -47,6 +47,8 @@
         
           <a class="main-nav-link" href="/archives">Archives</a>
         
+          <a class="main-nav-link" href="/about">About</a>
+        
       </nav>
       <nav id="sub-nav">
         
@@ -68,7 +70,7 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="categories-" class="article article-type-categories" itemscope itemprop="blogPost">
+      <section id="main"><article id="categories-" class="h-entry article article-type-categories" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/categories/index.html" class="article-date">
   <time datetime="2023-09-23T16:20:01.699Z" itemprop="datePublished">2023-09-24</time>
@@ -81,27 +83,27 @@
       <header class="article-header">
         
   
-    <h1 class="article-title" itemprop="name">
+    <h1 class="p-name article-title" itemprop="name">
       categories
     </h1>
   
 
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+    <div class="e-content article-entry" itemprop="articleBody">
       
         
       
     </div>
     <footer class="article-footer">
-      
-        <a data-url="https://5xie.github.io/categories/index.html" data-id="clnbz098r0002nnmm3of9gkbg" class="article-share-link" data-share="baidu" data-title="categories">Share</a>
-      
 
       
-        <a href="https://5xie.github.io/categories/index.html#ds-thread" class="article-comment-link">Comments</a>
       
-
+        <a href="/categories/index.html#comments" class="article-comment-link">
+          <span class="post-comments-count valine-comment-count fa fa-comment" data-xid="/categories/index.html" itemprop="commentCount"></span>
+          Comments
+        </a>
+      
       
     </footer>
   </div>
@@ -111,9 +113,11 @@
 </article>
 
 
-  <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="categories/index.html" data-title="categories" data-url="https://5xie.github.io/categories/index.html"></div>
+
+  <section id="comments" class="vcomment">
+
   </section>
+
 </section>
       
       <aside id="sidebar">
@@ -177,15 +181,11 @@
       <ul>
         
           <li>
-            <a href="http://arvinxiang.com" target="_blank">主题作者</a>
+            <a href="https://5xie.github.io" target="_blank">我的主页</a>
           </li>
         
           <li>
-            <a href="http://reqianduan.com" target="_blank">热前端</a>
-          </li>
-        
-          <li>
-            <a href="http://yuancheng.work" target="_blank">远程.work</a>
+            <a href="http://www.baidu.com" target="_blank">百度</a>
           </li>
         
       </ul>
@@ -202,17 +202,18 @@
     <div id="footer-info" class="inner">
       &copy; 2023 5xie<br>
       Powered by <a href="//hexo.io/" target="_blank">Hexo</a>
-      .
-      Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a>
     </div>
   </div>
 </footer>
+
   </div>
   <nav id="mobile-nav">
   
     <a href="/" class="mobile-nav-link">Home</a>
   
     <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
   
 </nav>
   <!-- totop start -->
@@ -222,46 +223,8 @@
 
 <!-- totop end -->
 
-<!-- 多说公共js代码 start -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"reqianduan"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-  </script>
-<!-- 多说公共js代码 end -->
-
 
 <!-- 百度分享 start -->
-
-<div id="article-share-box" class="article-share-box">
-  <div id="bdshare" class="bdsharebuttonbox article-share-links">
-    <a class="article-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
-    <a class="article-share-weixin" data-cmd="weixin" title="分享到微信"></a>
-    <a class="article-share-qq" data-cmd="sqq" title="分享到QQ"></a>
-    <a class="article-share-renren" data-cmd="renren" title="分享到人人网"></a>
-    <a class="article-share-more" data-cmd="more" title="更多"></a>
-  </div>
-</div>
-<script>
-  function SetShareData(cmd, config) {
-    if (shareDataTitle && shareDataUrl) {
-      config.bdText = shareDataTitle;
-      config.bdUrl = shareDataUrl;
-    }
-    return config;
-  }
-  window._bd_share_config={
-    "common":{onBeforeClick: SetShareData},
-    "share":{"bdCustomStyle":"/css/bdshare.css"}
-  };
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
-</script>
 
 <!-- 百度分享 end -->
 
